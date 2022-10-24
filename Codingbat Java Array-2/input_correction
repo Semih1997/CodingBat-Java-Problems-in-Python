@@ -1,0 +1,8 @@
+test_inputs = []
+expected = []
+all_correct = True
+for i in range(len(expected)):
+    if 'func'(test_inputs[i]) != expected[i]:
+        print(test_inputs[i])
+        all_correct = False
+print("All Correct: ", all_correct)
