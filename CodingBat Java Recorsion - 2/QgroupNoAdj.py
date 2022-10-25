@@ -1,9 +1,9 @@
 def groupNoAdj(startindx,arr,target):
     if startindx >= len(arr):
         return target == 0
-    elif groupNoAdj(startindx + 1, arr[2:], target - arr[startindx]):
+    elif groupNoAdj(startindx + 2, arr, target - arr[startindx]):
         return True
-    elif groupNoAdj(startindx+ 1, arr[1:], target):
+    elif groupNoAdj(startindx+ 1, arr, target):
         return True
     else:
         return False
