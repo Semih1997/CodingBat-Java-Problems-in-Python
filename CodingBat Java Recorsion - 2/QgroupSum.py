@@ -1,3 +1,4 @@
+# groupSum Python
 def groupSum(a,b,c):
     if a >= len(b):
         return (c == 0)
