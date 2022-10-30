@@ -1,3 +1,4 @@
+# splitOdd10 in Python
 def splitOdd10(arr):
     sum1 = 0
     sum2 = 0
