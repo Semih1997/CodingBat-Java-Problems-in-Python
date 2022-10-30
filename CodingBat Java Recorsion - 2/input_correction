@@ -1,8 +1,10 @@
-test_inputs = []
-expected = []
+# This code file is for codingbat java correction in python.
+test_inputs = [] #Write here the inputs in CodingBat.
+expected = [] #Write here the what is expected value in CodingBat.
 all_correct = True
 for i in range(len(expected)):
-    if 'func'(test_inputs[i]) != expected[i]:
+    if 'func'(test_inputs[i]) != expected[i]: # Write your function's name in 'func'. 
         print(test_inputs[i])
         all_correct = False
 print("All Correct: ", all_correct)
+# if the result this is All Correct: True your function is correct.
