@@ -1,3 +1,4 @@
+# groupNoAdj in Python
 def groupNoAdj(startindx,arr,target):
     if startindx >= len(arr):
         return target == 0
