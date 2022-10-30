@@ -1,3 +1,4 @@
+# splitArray in Python
 def splitArray(arr):
     sum1 = 0
     sum2 = 0
