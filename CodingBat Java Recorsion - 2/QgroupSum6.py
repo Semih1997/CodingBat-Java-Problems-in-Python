@@ -1,3 +1,4 @@
+# groupSum6 in Python
 def groupSum6(a,b,c):
     if a >= len(b):
         return (c == 0)
