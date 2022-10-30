@@ -1,3 +1,4 @@
+# groupSumClump in Python
 def groupSumClump(start, arr, target):
     if start >= len(arr):
         return (target == 0)
