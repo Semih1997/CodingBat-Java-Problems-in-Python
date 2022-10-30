@@ -1,3 +1,4 @@
+# split53 in Python
 def split53(arr):
     sum1 = 0
     sum2 = 0
